@@ -7,3 +7,11 @@
   padding: 30px;
   margin: 10px; /* Ejemplo de margen de 20px */
 }
+
+
+body {
+  height: 2000px; /* Solo para simular scroll */
+}
+.navbar {
+  transition: background-color 0.3s ease-in-out; /* Transición suave para el cambio de color de fondo */
+}
