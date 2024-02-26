@@ -10,7 +10,7 @@
 
 
 body {
-  height: 2000px; /* Solo para simular scroll */
+  height: 200px; /* Solo para simular scroll */
 }
 .navbar {
   transition: background-color 0.3s ease-in-out; /* Transición suave para el cambio de color de fondo */
