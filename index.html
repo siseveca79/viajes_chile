@@ -304,7 +304,7 @@
   $(document).ready(function(){
 
   $(".navbar-nav a").click(function(event){
-    // Prevenir evento por defecto
+
     event.preventDefault();
 
 
@@ -314,7 +314,7 @@
 
       { scrollTop: $(navb).offset().top },
 
-      2000,
+      2500,
 
       function(){
         window.location.hash = navb;

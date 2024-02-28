@@ -7,31 +7,27 @@
 
 # proyecto lo encontraras en : https://github.com/siseveca79/viajes_chile
 
-#    Metaetiquetas y enlaces externos:
-        #Se utilizan metaetiquetas estándar para especificar el conjunto de caracteres y la configuración de la vista.
-        #Se incluyen enlaces a hojas de estilo externas de Bootstrap y Font Awesome para aplicar estilos y utilizar iconos #respectivamente.
-        #También hay un enlace a un archivo de hoja de estilos personalizado styles.css.
-        #Se incluye el script de jQuery.
+#    Estructura básica HTML:
+        <!DOCTYPE html>: Declaración del tipo de documento.
+        <html lang="es">: Especifica el idioma del contenido como español.
 
-#    Encabezado (<header>):
-        #Contiene una barra de navegación (<nav>) que utiliza Bootstrap para su diseño y funcionalidad.
-        #Se incluye un carrusel de imágenes (<div id="carouselExampleIndicators">) para mostrar imágenes destacadas.
-        #El carrusel utiliza la clase carousel de Bootstrap para su implementación.
+#    Encabezado (<head>):
+        Metaetiquetas: Proporciona metainformación sobre el documento, como la codificación de caracteres y la escala inicial para dispositivos móviles.
+        Icono: Define un ícono para la pestaña del navegador.
+        Título: Título de la página.
+        Enlaces a estilos CSS externos: Se incluyen Bootstrap, Google Fonts y Font Awesome.
+        Script de jQuery: Se utiliza para funcionalidades dinámicas en la página.
 
-#    Secciones principales (<main>):
-        #Sección de presentación (<section id="QS">): Contiene información sobre la empresa "Quiénes somos" con tarjetas de #información.
-        #Sección de destacados (<section id="DT">): Muestra productos destacados en tarjetas.
-        #Sección de formulario de contacto (<section id="FO">): Proporciona un formulario de contacto para que los usuarios se #comuniquen con la empresa.
+#    Cuerpo (<body>):
+        Encabezado de la página (<header>):
+            Barra de navegación (<nav>): Contiene el logotipo y los enlaces de navegación.
+            Carrusel de imágenes: Presenta imágenes deslizantes con controles de navegación.
+        Contenido principal (<main>):
+            Sección de presentación (<section id="section1">): Presenta información sobre "Quiénes somos" con tarjetas y iconos.
+            Sección de destacados: Muestra una serie de tarjetas destacadas con imágenes y descripciones.
+            Sección de formulario de contacto: Incluye un formulario de contacto básico.
+        Pie de página (<footer>): Contiene información de contacto y enlaces a redes sociales.
 
-#    Pie de página (<footer>):
-        #Contiene información de contacto y enlaces a perfiles de redes sociales.
-        #Se utilizan íconos de Font Awesome para los enlaces a redes sociales.
-
-#    Script JavaScript:
-        #Se utiliza jQuery para agregar un efecto de desplazamiento suave al hacer clic en los enlaces de la barra de navegación.
-        #Se ha ajustado el tiempo de animación a 2000 milisegundos (2 segundos) para lograr un desplazamiento más suave.
-        #El selector .navbar-nav a se utiliza para seleccionar los enlaces en la barra de navegación.
-
-#    Estilos CSS (styles.css):
-        #Se proporcionan estilos adicionales para los elementos con los IDs #QS y #DT, que se utilizan en las secciones "Quiénes #somos" y "Destacados" respectivamente.
-        #Los estilos incluyen ajustes de padding y margen para estas secciones.
+#    Scripts y estilos personalizados:
+        Script de JavaScript: Se utiliza para el desplazamiento suave al hacer clic en los enlaces de navegación.
+        Estilos CSS personalizados: Define estilos adicionales, como el tamaño del encabezado y la ocultación de la sección de presentación en dispositivos móviles con un ancho máximo de 576px.
